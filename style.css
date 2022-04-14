@@ -1654,6 +1654,15 @@ ul {
 .see-all-sections-trigger[aria-hidden="true"] {
   display: none;
 }
+/*****Category template*****/
+.category-hero {
+  background-image: url($assets-pexels-erik-scheel-95425-jpg);
+  background-size:cover;
+  margin-bottom: 10px;
+  background-position: 50% 0;
+  height: 30vh;
+  padding:2%
+}
 
 /***** Article *****/
 .article {
