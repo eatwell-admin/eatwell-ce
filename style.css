@@ -1934,6 +1934,20 @@ ul {
   word-wrap: break-word;
 }
 
+/* CONTENT BLOCKS CLASSES*/
+.do-not-copy-me{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select:none;
+}
+
+.copy-me {
+  background-color: #f3f3f3;
+  padding: 15px;
+  font-family: monospace;
+}
+
 .article-footer {
   align-items: center;
   display: flex;
